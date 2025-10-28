@@ -1,0 +1,22 @@
+{
+  "alerts": [
+    {
+      "id": "1",
+      "subject": "security",
+      "timestamp": "2024-01-15T10:30:00Z",
+      "severity": "HIGH",
+      "title": "Suspicious login detected",
+      "message": "Multiple failed login attempts from unknown IP",
+      "metadata": { "ip": "192.168.1.100", "location": "Paris" }
+    },
+    {
+      "id": "2", 
+      "subject": "performance",
+      "timestamp": "2024-01-20T14:45:00Z",
+      "severity": "MEDIUM",
+      "title": "High CPU usage",
+      "message": "CPU usage above 90% for 5 minutes",
+      "metadata": { "deviceId": "server-01", "cpuUsage": 95 }
+    }
+  ]
+}
